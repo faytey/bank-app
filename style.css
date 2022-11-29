@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(12, 11, 11, 0.863);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-color: rgb(164, 231, 243);
+    padding: 0 3rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 1rem rgba(0,0,0,0.1);
+}
+
+button{
+    font-family: 'Courier New', Courier, monospace;
+    background: blue;
+    color: white;
+    border: none;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+    box-shadow: 1rem 1rem 1rem rgba(0,0,0,0.1);
+}
+
+input{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    border: 1px solid blue;
+    outline: blue;
+    box-shadow: 1rem 1rem 1rem rgba(0,0,0,0.1);
+}
